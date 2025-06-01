@@ -1,0 +1,124 @@
+.hero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#main-photo {
+    width: auto;
+    height: 300px;
+    display: inline;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.main > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 40%;
+}
+
+.main {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.inf-img {
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid 4px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.inf-main {
+    display: flex;
+    justify-content: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    text-align: end;
+}
+
+.quotes p {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: light-italic, italic;
+}
+
+.quotes span {
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 5%;
+}
+
+.footer {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 20px;
+    color: #f9faf8;
+}
